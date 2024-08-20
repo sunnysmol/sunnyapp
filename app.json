@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "sunnyapp",
+    "slug": "sunnyapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sunnythakkar.sunnyapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sunnythakkar.sunnyapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48f64fa6-cace-4303-8bb7-9dbfd0907ff4"
+      }
+    },
+    "owner": "sunnythakkar",
+    "updates": {
+      "url": "https://u.expo.dev/48f64fa6-cace-4303-8bb7-9dbfd0907ff4"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
